@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# creating ssh connector
+# Connects to server 52.91.135.107 with key in ~/.ssh/school
 
-ssh ubuntu -i ~/.ssh/school
+ssh -i ~/.ssh/school ubuntu@52.91.135.107
